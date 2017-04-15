@@ -22,6 +22,7 @@ namespace WindowsFormsApplication
         {
             Calculadora c = new Calculadora();
             c.ShowDialog();
+        }
 
         private void btnTest_Click(object sender, EventArgs e)
         {

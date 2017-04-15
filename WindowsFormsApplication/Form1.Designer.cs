@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.btnTestCalculadora = new System.Windows.Forms.Button();
             this.btnTestCalendario = new System.Windows.Forms.Button();
-	    this.btnTest = new System.Windows.Forms.Button();
+            this.btnTest = new System.Windows.Forms.Button();
             this.txtResultado = new System.Windows.Forms.TextBox();
-	    
             this.SuspendLayout();
             // 
             // btnTestCalculadora
@@ -54,12 +52,10 @@
             this.btnTestCalendario.TabIndex = 1;
             this.btnTestCalendario.Text = "Calendario";
             this.btnTestCalendario.UseVisualStyleBackColor = true;
-
-            
             // 
             // btnTest
             // 
-            this.btnTest.Location = new System.Drawing.Point(103, 173);
+            this.btnTest.Location = new System.Drawing.Point(90, 189);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(75, 23);
             this.btnTest.TabIndex = 0;
@@ -69,11 +65,10 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(57, 64);
+            this.txtResultado.Location = new System.Drawing.Point(47, 163);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(167, 20);
             this.txtResultado.TabIndex = 1;
-
             // 
             // Form1
             // 
@@ -82,6 +77,8 @@
             this.ClientSize = new System.Drawing.Size(258, 224);
             this.Controls.Add(this.btnTestCalendario);
             this.Controls.Add(this.btnTestCalculadora);
+            this.Controls.Add(this.btnTest);
+            this.Controls.Add(this.txtResultado);
             this.Name = "Form1";
             this.Text = "Inicio";
             this.ResumeLayout(false);
