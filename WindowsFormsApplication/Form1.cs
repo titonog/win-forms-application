@@ -26,7 +26,7 @@ namespace WindowsFormsApplication
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-            txtResultado.Text = "DEMO 1234";
+            txtResultado.Text = "NUEVO MENSAJE";
         }
     }
 }
