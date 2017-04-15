@@ -17,10 +17,15 @@ namespace WindowsFormsApplication
             InitializeComponent();
         }
 
+
         private void btnTestCalculadora_Click(object sender, EventArgs e)
         {
             Calculadora c = new Calculadora();
             c.ShowDialog();
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            txtResultado.Text = "HOLA MUNDO";
         }
     }
 }
